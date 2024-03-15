@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Hotel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles1.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/226f6de747.js" crossorigin="anonymous"></script> <!-- Your custom styles -->
+</head>
+<body>
+    <div class="booking-page">
+        <!-- Nav Bar Section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.jpg" class="gogaga-logo" alt="Gogaga Holidays Logo"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="#">My Bookings</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="booking-container d-flex align-items-center" style="background: url('images/hotelbg.jpg') no-repeat center center fixed; background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 text-white">Find the Perfect Hotel</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="booking-form bg-white p-4 shadow">
+                            <form>
+                                
+                                <div class="form-group">
+                                    <label for="location">Location:</label>
+                                    <input type="text" class="form-control" id="location" placeholder="Enter a city or hotel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="checkInDate">Check-In Date:</label>
+                                    <input type="date" class="form-control" id="checkInDate">
+                                </div>
+                                <div class="form-group">
+                                    <label for="checkOutDate">Check-Out Date:</label>
+                                    <input type="date" class="form-control" id="checkOutDate">
+                                </div>
+                                <div class="form-group">
+                                    <label for="guests">Guests:</label>
+                                    <input type="number" class="form-control" id="guests" placeholder="Number of guests">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Search Hotels</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+    
+</body>
+</html>
